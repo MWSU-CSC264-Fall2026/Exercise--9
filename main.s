@@ -39,7 +39,6 @@ main:
     li a0, 10
     ecall
 
-
 # Return the larger of a0 and a1
 max:
     bge a0, a1, max_done
